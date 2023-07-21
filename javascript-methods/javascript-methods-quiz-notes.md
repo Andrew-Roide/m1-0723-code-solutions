@@ -29,7 +29,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   use push()
 
 - How do you break a string up into an array?
-  use splice() and pass in a space
+  use split() and pass in a space
 
 - Do string methods change the original string? How would you check if you weren't sure?
   They do not. You can check by console logging the original variable the string was attached to
