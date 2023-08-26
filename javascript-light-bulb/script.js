@@ -10,10 +10,7 @@ function viewMode(event) {
   ) {
     container.className = 'container-dark';
     button.className = 'button-dark';
-  } else if (
-    container.className === 'container-dark' &&
-    button.className === 'button-dark'
-  ) {
+  } else {
     container.className = 'container-light';
     button.className = 'button-light';
   }
