@@ -2,12 +2,20 @@ body {
   margin: 0;
 }
 
-.container-light {
+.container-light,
+.container-dark {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+}
+
+.container-light {
   background-color: rgb(245, 234, 220);
+}
+
+.container-dark {
+  background-color: rgb(27, 27, 27);
 }
 
 .button-container {
@@ -15,30 +23,22 @@ body {
   height: 20rem;
 }
 
-.button-light {
+.button-light,
+.button-dark {
   border: none;
-  background-color: rgb(250, 247, 101);
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
+}
+
+.button-light {
+  background-color: rgb(250, 247, 101);
   box-shadow: 0 -8px 20px 18px rgb(250, 247, 101),
     0 4px 20px 16px rgba(250, 247, 101);
 }
 
-.container-dark {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background-color: rgb(27, 27, 27);
-}
-
 .button-dark {
-  border: none;
   background-color: black;
-  width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
   box-shadow: 0 -8px 20px 18px rgb(0 0 0), 0 4px 20px 16px rgb(14 14 14);
 }
 
