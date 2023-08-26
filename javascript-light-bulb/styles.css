@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.container-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(245, 234, 220);
+}
+
+.button-container {
+  width: 20rem;
+  height: 20rem;
+}
+
+.button-light {
+  border: none;
+  background-color: rgb(250, 247, 101);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  box-shadow: 0 -8px 20px 18px rgb(250, 247, 101),
+    0 4px 20px 16px rgba(250, 247, 101);
+}
+
+.container-dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(27, 27, 27);
+}
+
+.button-dark {
+  border: none;
+  background-color: black;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  box-shadow: 0 -8px 20px 18px rgb(0 0 0), 0 4px 20px 16px rgb(14 14 14);
+}
+
+.button-light:active,
+.button-dark:active {
+  transform: translateY(6px);
+}
