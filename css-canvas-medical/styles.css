@@ -104,12 +104,12 @@ h1 {
 }
 
 .main-container-bottm {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .clinicians-prefer {
-  margin: 7rem 0;
+  margin: 2rem 0;
   background-color: rgba(211, 211, 211, 0.171);
 }
 
@@ -153,4 +153,82 @@ h1 {
   text-align: center;
   line-height: 4rem;
   width: 35rem;
+}
+
+.learn-more {
+  margin-bottom: 5rem;
+}
+
+.learn-more-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 100px;
+}
+
+.navbar-footer {
+  background-color: gray;
+}
+
+.navbar-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 6rem;
+  padding: 3rem 0;
+  line-height: 3rem;
+  font-size: 20px;
+}
+
+.navbar-footer-img {
+  width: 200px;
+  padding-bottom: 5rem;
+}
+
+.right-side-text {
+  display: flex;
+  gap: 10rem;
+  color: white;
+  margin: 6rem 30rem;
+  padding: 3rem;
+  line-height: 3rem;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 6rem;
+  background-color: rgba(211, 211, 211, 0.171);
+}
+
+.footer-text-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
 }
