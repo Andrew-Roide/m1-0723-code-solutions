@@ -1,0 +1,234 @@
+body {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+}
+
+li.contact-us-box {
+  background-color: rgb(30, 64, 98);
+  border-radius: 8px;
+  padding: 15px 25px;
+}
+
+a.contact-us {
+  color: white;
+}
+
+.main-container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.title-line {
+  border-bottom: 1px lightgray solid;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-img {
+  width: 200px;
+}
+
+.navbar-link-header {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: rgb(160, 158, 158);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.banner-container {
+  padding-top: 100px;
+}
+
+.image-text-container {
+  position: relative;
+  height: 45rem;
+  width: 100%;
+  background: url('./images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay {
+  background-color: rgba(80, 80, 80, 0.397);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text-content {
+  position: relative;
+  width: 50%;
+  padding-top: 4rem;
+  padding-left: 8rem;
+  color: white;
+}
+
+.main-text {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.get-started-button {
+  padding: 15px 60px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(30, 64, 98);
+  font-size: 20px;
+  border: none;
+  font-family: Avenir, sans-serif;
+}
+
+.main-container-bottm {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.clinicians-prefer {
+  margin: 2rem 0;
+  background-color: rgba(211, 211, 211, 0.171);
+}
+
+.location-title {
+  font-family: 'Tiempos Headline', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  margin-top: 7rem;
+  margin-bottom: 0;
+}
+
+.location-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5rem;
+}
+
+.location-paragraph {
+  margin: 20px;
+  max-width: 30rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  padding-bottom: 7rem;
+}
+
+.locations-left,
+.locations-right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 4rem;
+  width: 35rem;
+}
+
+.learn-more {
+  margin-bottom: 5rem;
+}
+
+.learn-more-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin: 0 100px;
+}
+
+.navbar-footer {
+  background-color: gray;
+}
+
+.navbar-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 6rem;
+  padding: 3rem 0;
+  line-height: 3rem;
+  font-size: 20px;
+}
+
+.navbar-footer-img {
+  width: 200px;
+  padding-bottom: 5rem;
+}
+
+.right-side-text {
+  display: flex;
+  gap: 10rem;
+  color: white;
+  margin: 6rem 30rem;
+  padding: 3rem;
+  line-height: 3rem;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-footer-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 6rem;
+  background-color: rgba(211, 211, 211, 0.171);
+}
+
+.footer-text-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
