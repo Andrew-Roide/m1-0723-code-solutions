@@ -1,0 +1,58 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.body-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.column-fifth-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-fifth {
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  height: 30rem;
+  object-fit: fill;
+}
+
+.item-name {
+  font-weight: ;
+}
+
+.item-size {
+  color: lightgray;
+  border-left: solid lightgray 1px;
+}
+
+.price {
+  background-color: antiquewhite;
+}
+
+.strikethrough-price {
+  color: lightgray;
+  text-decoration: line-through;
+}
