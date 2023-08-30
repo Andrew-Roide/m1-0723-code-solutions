@@ -1,0 +1,25 @@
+h1 {
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+.sentence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  white-space: pre;
+}
+
+.next-word {
+  border-bottom: solid black 3px;
+}
+
+.letter-correct {
+  color: green;
+}
+
+.letter-wrong {
+  color: red;
+  border-bottom: solid red 3px;
+}
