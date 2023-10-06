@@ -20,8 +20,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   after you set a variable to the querySlector of the class and after you have event.target
 
 - If you were to add another tab and view to your HTML, but you didn't use event delegation, how would your JavaScript code be written instead?
+  you you would add eventlisteners to all items
 
 - If you didn't use a loop to conditionally show or hide the views in the page, how would your JavaScript code be written instead?
+  you would write a lot of if else statements
 
 ## Notes
 
